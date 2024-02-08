@@ -116,15 +116,6 @@ header {
 }
 
 /*--------footer--------*/
-.upppercase {
-    text-transform: uppercase;
-}
-
-.general-sub {
-    font-family: 'Exo', sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
 
 footer {
     background-color: #525252;
