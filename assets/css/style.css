@@ -191,8 +191,6 @@ li .hvr-sweep-to-bottom:before {
     height: 120px;
 }
 
-
-
 /*--------------------------------------------Footer*/
 
 footer {
@@ -386,7 +384,7 @@ button[type="submit"] {
 }
 
 /*--------------------------------------------Map*/
-div#map {
+div #map {
     min-height: 360px;
 }
 
