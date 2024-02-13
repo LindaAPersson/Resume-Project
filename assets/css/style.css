@@ -118,7 +118,7 @@ header {
 }
 
 .logo {
-    background: url(../images/LindaPersson.jpeg);
+    background: url("../images/LindaPersson.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,6 +151,7 @@ header {
 
 #nav li {
     padding: 0;
+    margin: 0;
 }
 
 .menuitem {
@@ -165,6 +166,7 @@ header {
     color: #ffffff;
     height: 120px;
 }
+
 
 .menuitem a i {
     padding-top: 22px;
@@ -186,10 +188,12 @@ header {
 
 
 /*--------------------------------------------Hover.css*/
-li .hvr-sweep-to-bottom:before {
-    background: #9E9E9E;
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
+
 
 /*--------------------------------------------Footer*/
 
@@ -384,7 +388,7 @@ button[type="submit"] {
 }
 
 /*--------------------------------------------Map*/
-div #map {
+div#map {
     min-height: 360px;
 }
 
